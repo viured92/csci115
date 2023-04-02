@@ -1,0 +1,36 @@
+body{
+    background-color: #121212;
+    color:lightgrey;
+    background-image: url(
+        "../img/binding_dark.jpg")
+}
+
+.navbar{
+    background-color: rgb(43, 40, 40);
+    background-image: url("../img/tactile_noise.jpg");
+    border-radius: 30px;
+    position: sticky;
+    top: 20px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.6);
+}
+
+.navbar ul{
+    overflow: auto;
+}
+
+.navbar ul li{
+    /* padding: 1px; */
+    float: left;
+    list-style: none;
+    margin: 15px 20px;
+
+}
+
+.navbar li a{
+    padding: 3px 4px;
+    text-decoration: none;
+    color: lightgrey;
+    border: 1px inset #524f4f;
+    border-radius: 30px;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.4);
+}
